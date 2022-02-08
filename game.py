@@ -7,7 +7,7 @@ random_number = random.randint(1,100)
 name = input("What is your name? ")
 print(f"Hello {name}!")
 guess = 0
-number_of_guesses = 0
+number_of_guesses = 1
 
 while guess != random_number:
     guess = input("What is your guess between 1 to 100? ")
