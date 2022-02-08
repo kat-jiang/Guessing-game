@@ -16,14 +16,11 @@ while guess != random_number:
         print("This is not a number, try again.")
     if guess > 100:
         print("your guess is out of range")
-        # continue 
     elif guess > random_number:
         print("your guess is too high")
         number_of_gusses += 1
-        # continue
     elif guess < random_number:
         print("your guess is too low")
         number_of_gusses += 1
-        # continue
     else:
         print(f"You guessed correctly! It took you {number_of_gusses} guesses.")
